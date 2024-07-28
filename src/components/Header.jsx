@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='bg-white rounded-2xl flex justify-between py-6 px-16'>
       <div>
-        <img src={logo} alt="" srcset="" width={150} className='cursor-pointer' />
+        <img src={logo} alt=""  width={150} className='cursor-pointer' />
       </div>
       <div className='flex space-x-8 font-poppins items-center'>
         <a href="">Buy</a>

@@ -3,15 +3,15 @@ import { discord, logoGreen, telegram, x } from '../assets'
 
 const Footer = () => {
     return (
-        <div className='px-16 pb-16'>
-            <div className='bg-blue-700 rounded-3xl  h-[300px] '>
-                <div className='flex justify-between py-10 px-16 '>
+        <div className='md:px-16 px-8 pb-16 sm:w-full'>
+            <div className='bg-blue-700 rounded-3xl  lg:h-[300px] h-[200px] '>
+                <div className='flex justify-between py-10 lg:px-16 px-4 '>
                     <div className='font-poppins font-semibold'>
-                        <img src={logoGreen} alt="" srcset="" width={200} className='my-6' />
-                        <p className='text-white'>Seamless Fair Launch</p>
-                        <p className='text-white'>For <span className='text-primary-yellow'>Everyone</span></p>
+                        <img src={logoGreen} alt="" srcset=""  className='lg:w-[200px] w-[100px] lg:my-6 my-2' />
+                        <p className='text-white lg:text-[20px] text-[10px]'>Seamless Fair Launch</p>
+                        <p className='text-white lg:text-[20px] text-[10px]'>For <span className='text-primary-yellow'>Everyone</span></p>
                     </div>
-                    <div className='font-poppins text-white'>
+                    <div className='font-poppins text-white lg:text-[15px] text-[8px]'>
                         <p className=''>About Fairlauncher</p>
                         <p className='my-2'>KOL Package Apply</p>
                         <p className='my-2'>Apply For Partnered Project Launch</p>
@@ -19,14 +19,14 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className='flex justify-center'><hr className='h-[1px] w-5/6 opacity-20' /></div>
-                <div className='flex px-32 py-4 justify-between'>
+                <div className='flex md:px-32 px-8 lg:py-4 justify-between mt-2'>
                     <div>
-                        <p className='text-white font-poppins'>©Fairlauncher2024</p>
+                        <p className='text-white font-poppins lg:text-[20px] text-[15px]'>©Fairlauncher2024</p>
                     </div>
                     <div className='flex space-x-4 justify-end'>
-                        <img src={x} alt=""   width={25}/>
-                        <img src={telegram} alt=""   width={25}/>
-                        <img src={discord} alt=""   width={25}/>
+                        <img src={x} alt=""  className='lg:w-[25px] w-[18px]'/>
+                        <img src={telegram} alt=""   className='lg:w-[25px] w-[18px]'/>
+                        <img src={discord} alt=""   className='lg:w-[25px] w-[18px]'/>
 
                     </div>
                 </div>

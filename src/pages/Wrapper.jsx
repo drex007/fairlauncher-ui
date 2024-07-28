@@ -3,7 +3,7 @@ import LandingPage from './LandingPage'
 
 const Wrapper = () => {
     return (
-        <div className='m-0 px-0'>
+        <div className='w-full'>
             <LandingPage />
         </div>
     )
