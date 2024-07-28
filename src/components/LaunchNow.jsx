@@ -18,7 +18,7 @@ const LaunchNow = () => {
                         <p className='hidden md:block font-poppins'>Home</p>
                         <p className='bg-blue-700 rounded-full h-[40px] w-[40px]'></p>
                     </div>
-                    <div className=' md:flex md:justify-center space-y-4'>
+                    <div className=' md:flex md:justify-center'>
                         <div className='md:flex flex-col  items-center bg-blue-600 rounded-xl md:w-1/5 py-10 md:mx-4 px-2 justify-center font-poppins text-white text-[13px] font-semibold'>
                             <p className=''>List On</p>
                             <p>Fairlauncher</p>
