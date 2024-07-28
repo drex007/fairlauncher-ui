@@ -5,8 +5,8 @@ const Hero = () => {
     return (
 
         <div className='flex space-x-0 items-center px-14'>
-            <div className='flex-[0.35] font-poppins ml-28 z-40 mt-10'>
-                <p className='text-[30px] font-semibold text-primary-text-color mt-32'>Seamless & Fair  Launch</p>
+            <div className='flex-[0.35] font-poppins ml-28 z-40 mt-4'>
+                <p className='text-[30px] font-semibold text-primary-text-color mt-16'>Seamless & Fair  Launch</p>
                 <p className='text-blue-600 text-[30px] font-semibold my-0'><span className='text-primary-text-color'>For</span> Everyone</p>
                 <p className='tracking-[1px] text-[16px]'>Ensuring  Transparent, Secure , And </p>
                 <p>Equitable Token Distribution For All</p>

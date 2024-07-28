@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { arrowLeft, arrowRight } from '../assets'
 
 const ProjectLaunched = () => {
     const [count, setCount] = useState(0)
@@ -6,13 +7,13 @@ const ProjectLaunched = () => {
     const setCountHandler = (countParam) => {
         setCount(countParam)
     }
-    const dotCount = [0, 1, 2, 3, 4]
+    const dotCount = [0, 1, 2, 3]
     return (
         <div className='bg-transparent'>
             <div className='grid'>
                 <p className='flex justify-center text-[45px] font-poppins font-semibold pt-16 pb-4 space-x-2'> <span className='text-blue-600'> Projects </span> <span className='text-primary-text-color'>Launched</span></p>
-                <div className='w-2/5 flex justify-center items-center space-x-8 mx-auto'>
-                    <p>..</p>
+                <div className='overflow-hidden w-2/5 flex justify-center items-center space-x-8 mx-auto'>
+                    <img src={arrowLeft} alt="" width={20}  className='cursor-pointer'/>
                     <div className='w-full bg-black h-3/2 mx-auto my-1 rounded-2xl flex flex-1 '>
                         <div className='flex-[0.5] bg-gray-300 m-3 rounded-xl'>
 
@@ -25,10 +26,10 @@ const ProjectLaunched = () => {
 
                         </div>
                     </div>
-                    <p>..</p>
+                    <img src={arrowRight} alt="" width={20} className='cursor-pointer'/>
                 </div>
-                <div className='flex justify-center space-x-2 my-3'>
-                    {dotCount?.map((e, i) => <p className={`${count === i ? 'bg-blue-600' : 'bg-gray-500'} h-[10px] w-[10px] rounded-full`} onClick={(e) => setCountHandler(i)}></p>)}
+                <div className='flex justify-center space-x-2 my-3 items-center'>
+                    {dotCount?.map((e, i) => <p className={`${count === i ? 'bg-blue-600 h-[12px] w-[12px] ' : 'bg-gray-300 h-[8px] w-[8px]'}  rounded-full`} onClick={(e) => setCountHandler(i)}></p>)}
                 </div>
 
             </div>
