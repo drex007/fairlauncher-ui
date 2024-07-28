@@ -5,12 +5,12 @@ const LaunchNow = () => {
     return (
         <div className='px-16 pb-3'>
             <div className='flex justify-start'>
-                <p className='text-[40px] font-semibold text-primary-black-text font-poppins ml-8 mb-4'>Launch <span className='text-blue-700'>Now</span> </p>
+                <p className='text-[35px] font-semibold text-primary-black-text font-poppins ml-8 mb-4'>Launch <span className='text-blue-600'>Now</span> </p>
                 <img src={pointer} alt="" className='ml-10 w-[40px] my-8' />
             </div>
-            <div className=' h-[600px] bg-gray-100 rounded-md w-full flex flex-1'>
-                <div className='flex-[0.25] h-full bg-blue-600 rounded-md'>
-                    <img src={rocket} alt="" className='h-[750px] mb-10 rotate-8 z-10'/>
+            <div className=' h-[500px] bg-gray-100 rounded-md w-full flex flex-1'>
+                <div className='flex-[0.25] h-full bg-blue-600 rounded-md '>
+                    <img src={rocket} alt="" className='flex justify-start absolute w-[550px] mt-8 -ml-24 rotate-8 z-10'/>
 
                 </div>
                 <div className='flex-[0.7]'>
@@ -19,12 +19,12 @@ const LaunchNow = () => {
                         <p className='bg-blue-700 rounded-full h-[40px] w-[40px]'></p>
                     </div>
                     <div className=' flex justify-center'>
-                        <div className='flex flex-col items-center bg-blue-700 rounded-xl w-2/6 py-16 mx-4 px-2 justify-center font-poppins text-white'>
+                        <div className='flex flex-col items-center bg-blue-600 rounded-xl w-1/5 py-10 mx-4 px-2 justify-center font-poppins text-white text-[13px] font-semibold'>
                             <p>List On</p>
                             <p>Fairlauncher</p>
 
                         </div>
-                        <div className='flex flex-col items-center bg-blue-700 rounded-xl w-2/6 py-16 mx-4 px-4 justify-center font-poppins text-white'>
+                        <div className='flex flex-col items-center bg-blue-600 rounded-xl w-1/5 py-10 mx-4 px-4 justify-center font-poppins text-white text-[13px] font-semibold'>
                             <p>List On</p>
                             <p>Fairlauncher</p>
 
