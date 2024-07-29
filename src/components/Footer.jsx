@@ -21,12 +21,12 @@ const Footer = () => {
                 <div className='flex justify-center'><hr className='h-[1px] w-5/6 opacity-20' /></div>
                 <div className='flex md:px-32 px-8 lg:py-4 justify-between mt-2'>
                     <div>
-                        <p className='text-white font-poppins lg:text-[20px] text-[15px]'>©Fairlauncher2024</p>
+                        <p className='text-gray-300 font-poppins lg:text-[18px] text-[15px]'>©Fairlauncher2024</p>
                     </div>
                     <div className='flex space-x-4 justify-end'>
-                        <img src={x} alt=""  className='lg:w-[25px] w-[18px]'/>
-                        <img src={telegram} alt=""   className='lg:w-[25px] w-[18px]'/>
-                        <img src={discord} alt=""   className='lg:w-[25px] w-[18px]'/>
+                        <img src={x} alt=""  className='lg:w-[27px] w-[18px]'/>
+                        <img src={telegram} alt=""   className='lg:w-[27px] w-[18px]'/>
+                        <img src={discord} alt=""   className='lg:w-[27px] w-[18px]'/>
 
                     </div>
                 </div>

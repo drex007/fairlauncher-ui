@@ -11,18 +11,18 @@ const ProjectLaunched = () => {
     return (
         <div className='bg-transparent'>
             <div className='grid'>
-                <p className='flex justify-center text-[45px] font-poppins font-semibold pt-16 pb-4 space-x-2'> <span className='text-blue-600'> Projects </span> <span className='text-primary-text-color'>Launched</span></p>
-                <div className='overflow-hidden w-2/5 flex justify-center items-center space-x-8 mx-auto'>
+                <p className='flex justify-center lg:text-[45px] text-[30px] font-poppins font-semibold pt-16 pb-4 space-x-2'> <span className='text-blue-600'> Projects </span> <span className='text-primary-text-color'>Launched</span></p>
+                <div className='overflow-hidden lg:w-2/5 flex justify-center items-center space-x-8 mx-auto'>
                     <img src={arrowLeft} alt="" width={20}  className='cursor-pointer'/>
-                    <div className='w-full bg-black h-3/2 mx-auto my-1 rounded-2xl flex flex-1 '>
+                    <div className='w-full bg-black lg:h-3/2  h-4/3 mx-auto my-1 rounded-2xl flex flex-1 '>
                         <div className='flex-[0.5] bg-gray-300 m-3 rounded-xl'>
 
                         </div>
                         <div className='flex-[0.5] my-3 mr-3 rounded-xl py-2'>
-                            <p className='font-poppins text-[18px] text-primary-yellow'>BigMusk Cats</p>
-                            <p className='font-poppins text-[12px] text-white tracking-wider mt-3'>Ensuring Transparent, Secure, and Equitable Token Distribution For All.</p>
+                            <p className='font-poppins lg:text-[18px] text-[12px] text-primary-yellow'>BigMusk Cats</p>
+                            <p className='font-poppins lg:text-[12px] text-[8px] text-white tracking-wider md:mt-3 mt-1'>Ensuring Transparent, Secure, and Equitable Token Distribution For All.</p>
 
-                            <button className='py-2 px-10 bg-primary-yellow text-blue-600 font-semibold rounded-3xl text-[10px] my-2'>Buy Now</button>
+                            <button className='py-2 md:px-10 px-4 bg-primary-yellow text-blue-600 font-semibold rounded-3xl md:text-[10px] text-[8px] my-2'>Buy Now</button>
 
                         </div>
                     </div>

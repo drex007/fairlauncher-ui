@@ -9,15 +9,16 @@ import Footer from '../components/Footer'
 
 const LandingPage = () => {
   return (
-    <div className='h-screen bg-white sm:w-full'>
-      <div>
-        <div className='w-full md:bg-gradient-to-tr from-white via-white to-primary-bg-blend from-25% lg:to-75% lg:px-16  bg-gradient-radial'>
-          <div className='hidden md:block bg-transparent md:pt-8 px-14'>
-            <Header />
-          </div>
-          {/* Hero */}
-          <Hero />
+    <div className='relative w-full overflow-hidden'>
+        <div className='lg:bg-gradient-to-br bg-gradient-radial bg-cover absolute md:min-h-[550px] min-h-[500px] min-w-full -z-10 from-primary-bg-blend via-purple-50 to-primary-bg-blend from-25% to-75% md:translate-x-60 blur-2xl  rounded-b-full'>
+
         </div>
+      <div className=''>
+        <div className='hidden md:block bg-transparent md:pt-8 px-14'>
+          <Header />
+        </div>
+        {/* Hero */}
+        <Hero />
       </div>
       <SupportedChain />
       <LaunchNow />
