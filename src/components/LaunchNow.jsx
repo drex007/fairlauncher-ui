@@ -10,7 +10,7 @@ const LaunchNow = () => {
             </div>
             <div className=' md:h-[500px] h-[550px] bg-gray-100 md:rounded-lg rounded-2xl w-full flex flex-1'>
                 <div className='hidden md:block flex-[0.25] h-full bg-blue-600 rounded-md '>
-                    <img src={rocket} alt="" className='flex justify-start absolute w-[550px] mt-8 -ml-24 rotate-8 z-10'/>
+                    <img src={rocket} alt="" className='flex justify-start absolute w-[550px] mt-8 -ml-24 rotate-8 z-10' />
 
                 </div>
                 <div className='md:flex-[0.7] mx-auto '>
@@ -25,7 +25,7 @@ const LaunchNow = () => {
 
                         </div>
                         <div className='md:flex flex-col items-center bg-blue-600 rounded-xl md:w-1/5 py-10 md:mx-4 px-4 justify-center font-poppins text-white text-[13px] font-semibold'>
-                            <p>List On</p> 
+                            <p>List On</p>
                             <p>Fairlauncher</p>
 
                         </div>

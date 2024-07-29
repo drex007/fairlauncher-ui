@@ -3,11 +3,11 @@ import { light } from '../assets'
 
 const UniqueFeatures = () => {
   return (
-    <div className='lg:flex flex-1 px-16 my-8'>
+    <div className='lg:flex lg:flex-1 lg:px-16 px-8 my-8'>
       <div className='flex-[0.5]'>
-        <div className='ml-16'>
-          <p className='text-blue-700 text-[40px] font-semibold '>Unique Features</p>
-          <p className='text-primary-black-text font-semibold font-poppins text-[40px]'>Of FairLauncher</p>
+        <div className='lg:ml-16'>
+          <p className='text-blue-700 lg:text-[40px] font-semibold text-[30px] '>Unique Features</p>
+          <p className='text-primary-black-text font-semibold font-poppins lg:text-[40px] text-[30px]'>Of FairLauncher</p>
         </div>
         <img src={light} alt="" srcset="" className='hidden lg:block w-4/6' />
 

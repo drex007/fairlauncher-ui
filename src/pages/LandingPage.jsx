@@ -11,8 +11,8 @@ const LandingPage = () => {
   return (
     <div className='h-screen bg-white sm:w-full'>
       <div>
-        <div className='w-full bg-gradient-to-tr from-white via-white to-primary-bg-blend from-25% to-75% px-16'>
-          <div className='hidden lg:block bg-transparent pt-8 px-14'>
+        <div className='w-full md:bg-gradient-to-tr from-white via-white to-primary-bg-blend from-25% lg:to-75% lg:px-16  bg-gradient-radial'>
+          <div className='hidden md:block bg-transparent md:pt-8 px-14'>
             <Header />
           </div>
           {/* Hero */}
