@@ -16,6 +16,7 @@ import arrowLeft from './arrow-left.png'
 import arrowRight from './arrow-right.png'
 import rocket from './rocket.png'
 import reload from './reload.png'
+import menu from './menu.png'
 
 
 
@@ -37,5 +38,6 @@ export {
     arrowLeft,
     arrowRight,
     rocket,
-    reload
+    reload,
+    menu
 }

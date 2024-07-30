@@ -4,7 +4,7 @@ import { home, gear } from '../assets'
 const Hero = () => {
     return (
 
-        <div className='md:flex space-x-0 items-center px-14'>
+        <div className='md:flex space-x-0 items-center lg:px-14 '>
             <div className='md:flex-[0.35] font-poppins md:ml-28 z-40 md:mt-4 flex-1'>
                 <p className='md:text-[30px]  text-[22px] font-semibold text-primary-text-color mt-16 flex md:justify-start justify-center'>Seamless & Fair  Launch</p>
                 <p className='text-blue-600 md:text-[30px] text-[22px] font-semibold my-0 flex md:justify-start justify-center'><span className='text-primary-text-color mr-2'>For</span> Everyone</p>
@@ -30,8 +30,8 @@ const Hero = () => {
 
 
             </div>
-            <div className='md:flex-[0.70] lg:-mt-28 flex-1 '>
-                <img src={home} alt="" srcset="" className='w-full mb-6'    />
+            <div className='md:flex-[0.70] lg:-mt-28 flex-1 justify-center w-full'>
+                <img src={home} alt="" srcset="" className='lg:w-full mb-6 max-md:-ml-10'    />
             </div>
 
         </div>
