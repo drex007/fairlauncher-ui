@@ -27,7 +27,8 @@ export default {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-radial-to-t':'radial-gradient(circle_at_top_left,(var(--tw-gradient-stops))'
+        'gradient-radial-to-t': 'radial-gradient(circle_at_top_left,(var(--tw-gradient-stops))',
+  
 
       },
 
@@ -39,7 +40,7 @@ export default {
         "primary-bg-blend": '#BDDBFB',
         "primary-text-color": "#2E3449",
         "primary-black-text": "#3D3D3D"
-        
+
 
       },
       fontFamily: {

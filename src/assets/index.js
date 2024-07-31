@@ -17,6 +17,7 @@ import arrowRight from './arrow-right.png'
 import rocket from './rocket.png'
 import reload from './reload.png'
 import menu from './menu.png'
+import bgRocket from './bg-rocket.png'
 
 
 
@@ -39,5 +40,6 @@ export {
     arrowRight,
     rocket,
     reload,
-    menu
+    menu,
+    bgRocket
 }
