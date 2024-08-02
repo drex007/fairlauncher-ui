@@ -7,6 +7,7 @@ import NewsLetter from '../components/NewsLetter'
 import Footer from '../components/Footer'
 
 
+
 const LandingPage = () => {
   return (
     <div className='relative w-full overflow-hidden'>
