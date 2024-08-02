@@ -21,12 +21,10 @@ const ProjectLaunched = () => {
         <div className='bg-transparent'>
             <div className='grid'>
                 <p className='flex justify-center lg:text-[35px] text-[30px] font-poppins font-semibold pt-16 pb-4 space-x-2'> <span className='text-blue-600'> Projects </span> <span className='text-primary-text-color'>Launched</span></p>
-                <div className='lg:w-2/5  w-full flex justify-center items-center lg:space-x-4 mx-auto max-md:px-1 space-x-1'>
+                <div className='lg:w-2/5 w-full flex justify-center items-center lg:space-x-4 mx-auto space-x-1'>
                     <img src={arrowLeft} alt="" width={20} className='cursor-pointer' onClick={prev} />
 
-
                     <Slides slides={dotCount} current={count} />
-
 
                     <img src={arrowRight} alt="" width={20} className='cursor-pointer' onClick={next} />
                 </div>
