@@ -6,7 +6,7 @@ import UniqueFeatures from './UniqueFeatures'
 const SupportedChain = () => {
     return (
         <div className='overflow-hidden w-full'>
-            <div className='bg-gradient-to-b absolute min-w-full min-h-[850px] rounded-full -z-10 -translate-x-[45%] translate-y-[5%]  from-purple-50 via-gray-50 blur-2xl to-sky-100 from-25% to-75%'>
+            <div className='bg-gradient-to-b absolute min-w-full min-h-[850px] rounded-full -z-10 -translate-x-[45%] translate-y-[5%]  from-sky-50 via-gray-50 blur-2xl to-sky-100 from-25% to-75%'>
             </div>
             <div>
 

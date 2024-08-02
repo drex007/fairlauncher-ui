@@ -4,7 +4,7 @@ const Slides = ({ slides, current }) => {
     const [currentSlide, setCurrentSlide] = useState(0)
 
     return (
-        <div className='relative w-full  overflow-hidden'>
+        <div className='relative lg:w-full w-4/5  overflow-hidden'>
             <div
                 className='flex transition-transform duration-1000 ease-in-out'
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}

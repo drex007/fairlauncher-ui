@@ -30,7 +30,7 @@ const Header = () => {
 
         <img src={logo} alt="" width={150} className='cursor-pointer -ml-6' />
 
-        <button className='bg-button-blue text-primary-yellow font-poppins md:px-4 px-1 py-4  rounded-3xl lg:text-[10px]  text-[8px] font-semibold'>Connect Wallet</button>
+        <button className='bg-button-blue text-primary-yellow font-poppins md:px-4 px-1 py-4  rounded-full lg:text-[10px]  text-[8px] font-semibold'>Connect Wallet</button>
 
 
       </div>
@@ -46,7 +46,7 @@ const Header = () => {
           <a href="">About</a>
         </div>
         <div>
-          <button className='bg-button-blue text-primary-yellow font-poppins px-4 py-3 rounded-2xl text-[10px] font-semibold'>Connect Wallet</button>
+          <button className='bg-button-blue text-primary-yellow font-poppins px-4 py-3 rounded-full text-[10px] font-semibold'>Connect Wallet</button>
         </div>
 
 
