@@ -13,7 +13,7 @@ const Header = () => {
         <div className=' bg-white w-[45px] p-2 flex justify-center rounded-xl cursor-pointer' onClick={() => toggleShowNav()}>
           <img src={menu} alt="" width={150} className='' />
         </div>
-        {showNav && <div className='absolute bg-white  w-3/4 rounded-2xl flex flex-col items-start -left-2  -top-4 pt-8 pb-4 px-4 transition ease-in-out delay-5000'>
+        {showNav && <div className='z-50  absolute bg-white  w-3/4 rounded-2xl flex flex-col items-start -left-2  -top-4 pt-8 pb-4 px-4 transition ease-in-out delay-5000'>
           <img src={logo} alt="" width={120} className='cursor-pointer -mt-1 mb-8' onClick={() => toggleShowNav()} />
           <div className='flex flex-col  font-poppins '>
             <a href="" className='my-2'>Buy</a>
@@ -35,18 +35,18 @@ const Header = () => {
 
       </div>
       {/* Heaader for Large Screen */}
-      <div className='hidden lg:flex bg-white rounded-2xl  justify-between py-6 px-16'>
+      <div className='hidden lg:flex bg-white rounded-2xl  justify-between py-6 2xl:px-24 px-16 2xl:py-10'>
         <div>
-          <img src={logo} alt="" width={150} className='cursor-pointer' />
+          <img src={logo} alt="" className='cursor-pointer w-[150px] 2xl:w-[180px]' />
         </div>
         <div className='flex space-x-8 font-poppins items-center'>
-          <a href="">Buy</a>
-          <a href="">List</a>
-          <a href="">Partnered Launch</a>
-          <a href="">About</a>
+          <p className='hover:cursor-pointer 2xl:text-[25px]'>Buy</p>
+          <p className='hover:cursor-pointer 2xl:text-[25px]'>List</p>
+          <p className='hover:cursor-pointer 2xl:text-[25px]'>Partnered Launch</p>
+          <p className='hover:cursor-pointer 2xl:text-[25px]'>About</p>
         </div>
         <div>
-          <button className='bg-button-blue text-primary-yellow font-poppins px-4 py-3 rounded-full text-[10px] font-semibold'>Connect Wallet</button>
+          <button className='bg-button-blue text-primary-yellow font-poppins px-4 2xl:px-16  2xl:py-6 py-3 rounded-full 2xl:text-[15px] text-[10px] font-semibold'>Connect Wallet</button>
         </div>
 
 
