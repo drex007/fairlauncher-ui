@@ -24,9 +24,9 @@ const Footer = () => {
                         <p className='text-gray-300 font-poppins lg:text-[18px] text-[15px]'>©Fairlauncher2024</p>
                     </div>
                     <div className='flex space-x-4 justify-end'>
-                        <img src={x} alt=""  className='lg:w-[27px] w-[18px]'/>
-                        <img src={telegram} alt=""   className='lg:w-[27px] w-[18px]'/>
-                        <img src={discord} alt=""   className='lg:w-[27px] w-[18px]'/>
+                        <a href="https://twitter.com/fairlauncherxyz" className=' hover:cursor-pointer'><img src={x} alt=""  className='lg:w-[27px] w-[18px]'/></a>
+                        <a href="https://t.me/fairlaunchercom" className=' hover:cursor-pointer'><img src={telegram} alt=""   className='lg:w-[27px] w-[18px]'/></a>
+                        <a href=" https://t.me/fairlauncherxyz" className=' hover:cursor-pointer'><img src={discord} alt=""   className='lg:w-[25px] w-[18px]'/></a>
 
                     </div>
                 </div>

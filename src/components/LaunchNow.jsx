@@ -15,7 +15,7 @@ const LaunchNow = () => {
                 </div>
                 <div className='2xl:flex-[0.85] md:flex-[0.7] 2xl:mx-0 mx-auto flex flex-col  '>
                     <div className='px-16 flex md:justify-between my-8 justify-center'>
-                        <p className='hidden md:block font-poppins 2xl:text-[25px] 2xl:text-primary-black-text'>Home</p>
+                        <p className='hidden md:block font-poppins 2xl:text-[25px] 2xl:text-primary-black-text'></p>
                         <p className='bg-blue-700 rounded-full h-[30px] w-[30px] p-2 cursor-pointer'><img src={reload} alt="" /></p>
                     </div>
                     <div className=' md:flex md:justify-center'>
@@ -25,7 +25,7 @@ const LaunchNow = () => {
 
                         </div>
                         <div className='md:flex flex-col items-center bg-blue-600 rounded-xl md:w-1/5 2xl:py-16 py-10 md:mx-4 px-4 justify-center font-poppins text-white  2xl:text-[20px]  text-[13px] font-semibold md:mt-0 mt-2'>
-                            <p className='flex justify-center'>List On</p>
+                            <p className='flex justify-center'>Buy On</p>
                             <p className='flex justify-center'>Fairlauncher</p>
 
                         </div>
@@ -38,12 +38,12 @@ const LaunchNow = () => {
 
                         <button className='bg-primary-yellow py-4 2xl:px-16 2xl:py-6 px-8 rounded-full text-blue-700 md:text-[13px] text-[10px] font-poppins font-semibold mt-8'> Connect Wallet</button>
                     </div>
-                    <p className=' hidden md:block justify-start px-16 font-poppins 2xl:text-[25px] text-primary-black-text'>Need help ?</p>
+                   
 
                 </div>
 
             </div>
-
+{/* 
             <div className='w-full flex flex-col  items-center mt-32'>
                 <p className='flex justify-center font-poppins my-4 text-primary-black-text 2xl:text-[30px] 2xl:my-8 md:text-[20px] text-[15px]'>Partners  Projects </p>
                 <div className='grid grid-cols-4 lg:space-x-16 space-x-8 items-center 2xl:my-4'>
@@ -53,7 +53,7 @@ const LaunchNow = () => {
                     <img src={medium} alt="" className='2xl:w-[200px] md:w-[120px] w-[40px]' />
 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

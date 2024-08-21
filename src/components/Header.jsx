@@ -18,7 +18,7 @@ const Header = () => {
           <div className='flex flex-col  font-poppins '>
             <a href="" className='my-2'>Buy</a>
             <a href="" className='my-2'>List</a>
-            <a href="" className='my-2'>Partnered Launch</a>
+            {/* <a href="" className='my-2'>Partnered Launch</a> */}
             <a href="" className='my-2'>About</a>
 
             <button className='py-3 px-10 font-semibold text-primary-yellow rounded-3xl bg-blue-600 font-poppins text-[10px] mt-8'> Buy</button>
@@ -42,7 +42,7 @@ const Header = () => {
         <div className='flex space-x-8 font-poppins items-center'>
           <p className='hover:cursor-pointer 2xl:text-[25px]'>Buy</p>
           <p className='hover:cursor-pointer 2xl:text-[25px]'>List</p>
-          <p className='hover:cursor-pointer 2xl:text-[25px]'>Partnered Launch</p>
+          {/* <p className='hover:cursor-pointer 2xl:text-[25px]'>Partnered Launch</p> */}
           <p className='hover:cursor-pointer 2xl:text-[25px]'>About</p>
         </div>
         <div>

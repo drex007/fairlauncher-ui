@@ -6,12 +6,12 @@ const Hero = () => {
 
         <div className='md:flex space-x-0 items-center lg:px-14 '>
             <div className='md:flex-[0.35] font-poppins md:ml-28 z-40 md:mt-4 flex-1'>
-                <p className='2xl:text-[80px] md:text-[30px]  text-[22px] font-semibold text-primary-text-color mt-16 flex md:justify-start justify-center'>Seamless & Fair  Launch</p>
+                <p className='2xl:text-[80px] md:text-[30px]  text-[22px] font-semibold text-primary-text-color mt-16 flex md:justify-start justify-center'>Seamless Fair  Launch</p>
                 <p className='text-blue-600 2xl:text-[80px] md:text-[30px] text-[22px] font-semibold my-0 flex md:justify-start justify-center'><span className='text-primary-text-color mr-2'>For</span> Everyone</p>
                 
                 
-                <p className='tracking-[1px] 2xl:text-[40px] lg:text-[16px] text-[14px] mt-1 flex md:justify-start justify-center '>Ensuring  Transparent, Secure , And </p>
-                <p className='flex md:justify-start justify-center 2xl:text-[40px] lg:tetxt-[16px] text-[15px]'>Equitable Token Distribution For All</p>
+                <p className='tracking-[1px] 2xl:text-[40px] lg:text-[16px] text-[14px] mt-1 flex md:justify-start justify-center '>Ensuring  Transparent, Secure, Fair and </p>
+                <p className='flex md:justify-start justify-center 2xl:text-[40px] lg:tetxt-[16px] text-[15px]'>Safe Token Launch for Everyone</p>
                 <div className='hidden md:py-4 md:flex space-x-4 2xl:mt-4'>
                     <button className='2xl:px-24 2xl:py-6 2xl:rounded-full 2xl:text-[18px] py-3 px-14 font-semibold text-primary-yellow rounded-3xl bg-blue-600 font-poppins text-[12px]'> Buy</button>
                     <button className='2xl:px-24 2xl:py-6 2xl:rounded-full 2xl:text-[18px] py-3 px-10 font-semibol bg-primary-yellow rounded-3xl text-blue-600 font-poppins font-semibold text-[12px]'> List Project</button>
