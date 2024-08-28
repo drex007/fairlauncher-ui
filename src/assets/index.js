@@ -26,6 +26,7 @@ import bnb from './bnb.svg'
 import polygon from './polygon.svg'
 import blast from './blast.svg'
 import fantom from './fantom.svg'
+import warning from './warning.svg'
 
 
 
@@ -58,7 +59,8 @@ export {
     menu,
     bgRocket,
     arrowRightSVg,
-    arrowLeftSVg
+    arrowLeftSVg,
+    warning
 }
 
 

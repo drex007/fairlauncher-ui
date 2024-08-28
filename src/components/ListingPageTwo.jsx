@@ -6,7 +6,7 @@ import { arrowLeftSVg, arrowRightSVg, bgRocket, rocket } from '../assets'
 const LisitingPageTwo = ({ showListingPageTwo, setshowListingPageTwo }) => {
 
     return (
-        <div className='lg:flex-[0.75] min-h-[100%] py-4 lg:px-8 '>
+        <div className='lg:flex-[0.75] min-h-[100%] py-4 lg:px-8 w-full overflow-scroll '>
             <div className='flex justify-between'>
                 <div className='w-[35px] h-[35px] rounded-full bg-white flex p-1 hover:bg-gray-300 cursor-pointer' onClick={() => setshowListingPageTwo(false)}>
                     <img src={arrowLeftSVg} alt="" className='text-button-blue' />

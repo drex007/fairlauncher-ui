@@ -8,7 +8,7 @@ const LisitingPageOne = ({ showListingPageTwo, setshowListingPageTwo }) => {
     const chains = ["BNB", "BASE", "BLAST", "POLYGON", "ARBITRUM", "FANTOM"]
     const dexes = ["PancakeSwap", "SushiSwap", "UniSwap", "OkuSwap"]
     return (
-        <div className='lg:flex-[0.75] min-h-[100%] py-4 lg:px-8 px-2'>
+        <div className='lg:flex-[0.75] w-full min-h-[100%] py-4 lg:px-8 px-2 overflow-scroll'>
             <div className='flex justify-between'>
                 <div className='flex space-x-4'>
                     <Link to="/">

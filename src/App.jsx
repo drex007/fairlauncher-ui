@@ -2,7 +2,9 @@ import LandingPage from './pages/LandingPage'
 import NoPage from './pages/NoPage'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ListingPage from './pages/ListingPage';
-import BuyPageOne from './pages/BuyPageOne';
+import ViewProjectsToBuy from './pages/ViewProjectsToBuy';
+import AboutPage from './pages/AboutPage';
+import BuyProjectDetails from './pages/BuyProjectDetails';
 
 function App() {
 
@@ -11,8 +13,10 @@ function App() {
       <Routes>
 
         <Route index element={<LandingPage />} />
-        <Route path='/buy' element={<BuyPageOne />} />
+        <Route path='/buy' element={<ViewProjectsToBuy />} />
         <Route path='/listing' element={<ListingPage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/buy-details' element={<BuyProjectDetails />} />
 
         <Route path="*" element={<NoPage />} />
 
