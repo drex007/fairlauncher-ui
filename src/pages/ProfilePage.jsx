@@ -1,10 +1,9 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import ProjectCard from '../components/ProjectCard'
 import { Link } from 'react-router-dom'
-import { arrowLeft, arrowLeftSVg, arrowRight, arrowRightSVg } from '../assets'
-import ProjectLaunched from '../components/ProjectLaunched'
+import {copy, copyBlack } from '../assets'
+import NewsLetter from '../components/NewsLetter'
 
 const ProfilePage = () => {
   const cardCount = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -12,61 +11,78 @@ const ProfilePage = () => {
   return (
     <div className='relative w-full h-screen  '>
       <div className='bg-gradient-radial bg-cover absolute 2xl:h-[1400px] md:min-h-[550px] min-h-[500px] min-w-full -z-10 from-primary-bg-blend via-purple-50 to-primary-bg-blend from-25% to-75% blur-2xl  rounded-b-full'>
+      </div>
+
+      <div className='bg-transparent md:pt-8 lg:px-14 px-4'>
+        <Header />
+      </div>
+      <div className='px-16'>
+        <div className='min-h-[220px] bg-blue-400 rounded-2xl flex flex-col items-center font-poppins lg:mx-20 my-4 '>
+          <p className='text-white text-[40px] mt-4 font-semibold'>$339</p>
+          <p className='my-2 text-gray-700'>Total Wallet Value</p>
+          <hr className='w-5/6 h-[1px] flex mx-auto' />
+          <div className='my-auto flex'>
+            <img src={copy} alt="" className='cursor-pointer' />
+            <p className='text-white lg:text-[15px] text-[12px]'>0x9434843ffwd9434-4f-049449448</p>
+          </div>
+
+        </div>
+
 
       </div>
-      <div className=''>
-        <div className='bg-transparent md:pt-8 lg:px-14 px-4'>
-          <Header />
-        </div>
-        <ProjectLaunched />
-        <div className='flex justify-start lg:space-x-5 lg:ml-[7%] my-5'>
-          <div className='flex justify-between'>
-            <div className='flex space-x-2'>
-              <Link to="/">
-                <div className='w-[35px] h-[35px] rounded-full bg-gray-300 flex p-2 hover:bg-primary-bg-blend cursor-pointer'>
-                  <img src={arrowLeftSVg} alt="" className='text-button-blue' />
-                </div>
-              </Link>
-              <div className='w-[35px] h-[35px] rounded-full bg-gray-300 flex p-2 hover:bg-primary-bg-blend cursor-pointer'>
-                <img src={arrowRightSVg} alt="" className='text-button-blue' />
+      <div className='lg:px-16 px-2'>
+        <div className='min-h-[220px] bg-gradient-to-b from-gray-300 to-gray-50 rounded-2xl flex flex-col items-center font-poppins my-4 '>
+          <div className='flex grid-cols-3 lg:gap-64 gap-2 lg:my-8 my-4'>
+            <div>
+              <p className='lg:text-[15px] text-[12px]'>Project Invested</p>
+              <p className='flex justify-center font-semibold'>12</p>
+            </div>
+            <div>
+              <p className='lg:text-[15px] text-[12px]'>Project Invested</p>
+              <p className='flex justify-center font-semibold' >12</p>
+            </div>
+            <div>
+              <p className='lg:text-[15px] text-[12px]'>Project Invested</p>
+              <p className='flex justify-center font-semibold'>12</p>
+            </div>
+
+
+          </div>
+          <div className='flex grid-cols-5 lg:gap-40 gap-2 lg:mx-auto'>
+            <div>
+              <p className='lg:text-[15px] text-[10px] font-semibold'>Project Name</p>
+              <p className='flex justify-center font-semibold lg:text-[15px] text-[10px]'>BGMSK</p>
+            </div>
+            <div>
+              <p className='lg:text-[15px] text-[10px] font-semibold'>Date Invested</p>
+              <p className='flex justify-center lg:text-[15px] text-[10px]' >2024:05:07 UTC</p>
+            </div>
+            <div>
+              <p className='lg:text-[15px] text-[10px] font-semibold'>Amount</p>
+              <p className='flex justify-center lg:text-[15px] text-[10px]'>12 SOL</p>
+            </div>
+            <div>
+              <p className='lg:text-[15px] text-[10px] font-semibold'>Transaction Hash</p>
+              <div className='flex'>
+                <img src={copyBlack} alt="" className='cursor-pointer'/>
+                <p className='flex justify-center lg:text-[15px] text-[10px]'>test_0x45</p>
               </div>
+            </div>
+            <div>
+              <p className='lg:text-[15px] text-[10px]'></p>
+              <Link><p className='flex justify-center font-semibold text-[8px] bg-blue-600 px-2 py-1 text-white rounded-full items-center lg:mt-5 mt-3'>View Project</p></Link>
             </div>
 
 
 
-
           </div>
-          <div className='flex items-center ml-2 '>
-            <p className='text-[12px]'>Filter</p>
-            <select name="" className=' px-2 py-2 w-full bg-gray-200 rounded-2xl border-none font-poppins lg:text-[14px] text-[10px] outline-none' id="">
-              {dexes?.map((e, i) => <option className='' key={i}>{e}</option>)}
 
-            </select>
-          </div>
-          <div className='flex items-center space-x-2 ml-2'>
-            <p className='text-[12px]'>Chain</p>
-            <select name="" className=' px-2 py-2 w-full bg-gray-200 rounded-2xl border-none font-poppins lg:text-[14px] text-[10px] outline-none' id="">
-              {dexes?.map((e, i) => <option className='' key={i}>{e}</option>)}
-
-            </select>
-          </div>
 
         </div>
-        <div className='grid lg:grid-cols-3 grid-cols-2 gap-3 lg:px-24 my-6'>
-          {cardCount?.map((e, i) => <ProjectCard key={i} />)}
-
-        </div>
-
       </div>
 
 
-      <div className='bg-white p-5 rounded-2xl flex items-center  justify-between shadow-slate-400 shadow-2xl mx-auto lg:w-4/6 w-full my-4'>
-        <p><img src={arrowLeft} alt="" className='w-[20px] cursor-pointer' /></p>
-        {cardCount?.map((e, i) => <p className='lg:mx-4 px-2 rounded-sm hover:bg-blue-700 hover:text-white cursor-pointer'>{e}</p>)}
-        <p><img src={arrowRight} alt="" className='w-[20px] cursor-pointer' /></p>
-
-      </div>
-
+      <NewsLetter />
 
       <Footer />
 

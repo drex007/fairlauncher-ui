@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='bg-blue-700 rounded-3xl  lg:h-[300px] h-[200px] '>
                 <div className='flex justify-between py-10 lg:px-16 px-4 '>
                     <div className='font-poppins font-semibold'>
-                        <img src={logoGreen} alt="" srcset=""  className='lg:w-[200px] w-[100px] lg:my-6 my-2' />
+                        <img src={logoGreen} alt="" className='lg:w-[200px] w-[100px] lg:my-6 my-2' />
                         <p className='text-white lg:text-[20px] text-[10px]'>Seamless Fair Launch</p>
                         <p className='text-white lg:text-[20px] text-[10px]'>For <span className='text-primary-yellow'>Everyone</span></p>
                     </div>

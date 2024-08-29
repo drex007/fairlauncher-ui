@@ -24,14 +24,14 @@ const Hero = () => {
 
                 <div className='hidden lg:block'>
                     <div className='2xl:pt-56 pt-28 -ml-5'>
-                        <img src={gear} alt="" srcset="" className=' w-2/4' />
+                        <img src={gear} alt="" className=' w-2/4' />
                     </div>
                 </div>
 
 
             </div>
             <div className='md:flex-[0.70] lg:-mt-18 flex-1 justify-center w-full 2xl:justify-end'>
-                <img src={home} alt="" srcset="" className='lg:w-full 2xl:w-5/6 2xl:-mt-[140px] 2xl:ml-96 mb-6 max-md:-ml-10' />
+                <img src={home} alt=""  className='lg:w-full 2xl:w-5/6 2xl:-mt-[140px] 2xl:ml-96 mb-6 max-md:-ml-10' />
             </div>
 
 

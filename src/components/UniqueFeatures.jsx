@@ -9,7 +9,7 @@ const UniqueFeatures = () => {
           <p className='2xl:text-[80px] text-blue-700 lg:text-[40px] font-semibold text-[25px] flex lg:justify-start   justify-center'>Unique Features</p>
           <p className='2xl:text-[60px] text-primary-black-text font-semibold font-poppins lg:text-[40px] text-[25px] flex  lg:justify-start justify-center'>Of FairLauncher</p>
         </div>
-        <img src={light} alt="" srcset="" className='hidden 2xl:w-1/2 lg:block w-4/6' />
+        <img src={light} alt="" className='hidden 2xl:w-1/2 lg:block w-4/6' />
 
       </div>
       <div className='flex-[0.5] flex justify-end space-x-10 items-center'>

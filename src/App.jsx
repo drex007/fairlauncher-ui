@@ -5,6 +5,7 @@ import ListingPage from './pages/ListingPage';
 import ViewProjectsToBuy from './pages/ViewProjectsToBuy';
 import AboutPage from './pages/AboutPage';
 import BuyProjectDetails from './pages/BuyProjectDetails';
+import ProfilePage from './pages/ProfilePage';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/listing' element={<ListingPage />} />
         <Route path='/about' element={<AboutPage />} />
         <Route path='/buy-details' element={<BuyProjectDetails />} />
+        <Route path='/profile' element={<ProfilePage />} />
 
         <Route path="*" element={<NoPage />} />
 
