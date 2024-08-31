@@ -135,7 +135,7 @@ const BuyProjectDetails = () => {
                                     <div className=' relative flex justify-between items-center'>
                                         <p>BSC</p>
                                         <img src={warning} alt="" className=' bg-blue-700 p-2 rounded-full cursor-pointer' onMouseOver={() => setToggleButProjectInfo(true)} onMouseOut={() => setToggleButProjectInfo(false)} />
-                                        {toggleBuyProjectInfo && <div className='absolute w-1/2 ml-[55%] mt-[14%] px-1 flex justify-center py-2 text-[10px] rounded-md text-white font-poppins bg-blue-700'>
+                                        {toggleBuyProjectInfo && <div className='absolute w-1/2 ml-[55%] 2xl:mt-[9%] lg:mt-[14%] px-1 flex justify-center py-2 text-[10px] rounded-md text-white font-poppins bg-blue-700'>
                                             <p>You can only buy this project with BSC</p>
 
                                         </div>}
@@ -146,7 +146,7 @@ const BuyProjectDetails = () => {
                                     <div className='relative flex justify-between items-center'>
                                         <p>0x447E75998acf8943aA5882DDC7712c8A304016cf</p>
                                         <img src={warning} alt="" className=' bg-blue-700 p-2 rounded-full cursor-pointer' onMouseOver={() => setToggleAddress(true)} onMouseOut={() => setToggleAddress(false)} />
-                                        {toggleAddress && <div className='absolute w-1/2 ml-[55%] mt-[14%] px-1 flex justify-center py-2 text-[10px] rounded-md text-white font-poppins bg-blue-700'>
+                                        {toggleAddress && <div className='absolute w-1/2 ml-[55%] 2xl:mt-[9%] lg:mt-[14%] px-1 flex justify-center py-2 text-[10px] rounded-md text-white font-poppins bg-blue-700'>
                                             <p>Do not send token to this address</p>
 
                                         </div>}
