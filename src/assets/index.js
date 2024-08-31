@@ -31,6 +31,9 @@ import human from './human.svg'
 import profile from './profile.svg'
 import copy from './copy.svg'
 import copyBlack from './copy-black.svg'
+import home2 from './home2.svg'
+import cloude1 from './cloud1.svg'
+import cloud2 from './cloud2.svg'
 
 
 
@@ -68,7 +71,10 @@ export {
     human,
     profile,
     copy,
-    copyBlack
+    copyBlack,
+    home2,
+    cloude1,
+    cloud2
 }
 
 

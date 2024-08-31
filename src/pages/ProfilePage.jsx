@@ -70,7 +70,7 @@ const ProfilePage = () => {
             </div>
             <div>
               <p className='lg:text-[15px] text-[10px]'></p>
-              <Link><p className='flex justify-center font-semibold text-[8px] bg-blue-600 px-2 py-1 text-white rounded-full items-center lg:mt-5 mt-3'>View Project</p></Link>
+              <Link to="/claim-before-launch"><p className='flex justify-center font-semibold text-[8px] bg-blue-600 px-2 py-1 text-white rounded-full items-center lg:mt-5 mt-3'>View Project</p></Link>
             </div>
 
 

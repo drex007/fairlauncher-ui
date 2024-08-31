@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div className=''>
 
-      <div className='relative lg:hidden  grid grid-cols-3   mt-8  items-center '>
+      <div className='relative lg:hidden  grid grid-cols-3   mt-8  items-center px-2 '>
         <div className=' bg-white w-[45px] p-2 flex justify-center rounded-xl cursor-pointer' onClick={() => toggleShowNav()}>
           <img src={menu} alt="" width={150} className='' />
         </div>
@@ -30,7 +30,7 @@ const Header = () => {
                 <a href="" className='my-2'>List</a>
               </Link>
               {/* <a href="" className='my-2'>Partnered Launch</a> */}
-              <a href="" className='my-2'>About</a>
+              <Link to="/about"> <a href="" className='my-2'>About</a></Link>
 
               <button className='py-3 px-10 font-semibold text-primary-yellow rounded-3xl bg-blue-600 font-poppins text-[10px] mt-8'> Buy</button>
               <button className='py-3 px-10 font-semibol bg-primary-yellow rounded-3xl text-blue-600 font-poppins font-semibold text-[10px] my-1'> List Project</button>
@@ -48,19 +48,19 @@ const Header = () => {
       {/* Heaader for Large Screen */}
       <div className='hidden lg:flex bg-white rounded-2xl justify-between py-6 2xl:px-24 px-16 2xl:py-10'>
         <div>
-         <Link to="/"> <img src={logo} alt="" className='cursor-pointer w-[150px] 2xl:w-[180px]' /></Link>
+          <Link to="/"> <img src={logo} alt="" className='cursor-pointer w-[150px] 2xl:w-[180px]' /></Link>
         </div>
 
         <div className='flex space-x-6 cursor-pointer'>
           <Link to="/buy"><p className='cursor-pointer 2xl:text-[25px]'>Buy</p></Link>
-          <p className='cursor-pointer 2xl:text-[25px]'>About</p>
+          <Link to="/about"><p className='cursor-pointer 2xl:text-[25px]'>About</p></Link>
           <Link to="/listing">
             <p className='2xl:text-[25px] cursor-pointer'>List</p>
           </Link>
           {/* <p className='hover:cursor-pointer 2xl:text-[25px]'>Partnered Launch</p> */}
 
         </div>
-        <div className='relative bg-button-blue flex px-2 rounded-full py-2 items-center'>
+        <div className='relative bg-blue-600 flex px-2 rounded-full py-2 items-center z-50'>
           <img src={human} className='cursor-pointer max-w-[30px]' onMouseOver={() => setShowProfile(true)} />
           <div className='h-1/2 w-[1px] bg-white my-auto ml-1'></div>
           <p className='cursor-pointer max:w-[120px] text-primary-yellow font-poppins px-4 text-[10px] font-semibold'> Connect Wallet</p>

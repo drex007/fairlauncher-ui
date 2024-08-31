@@ -29,7 +29,7 @@ const ProjectLaunched = () => {
                     <img src={arrowRight} alt="" className=' 2xl:w-[40px] w-[20px] cursor-pointer' onClick={next} />
                 </div>
                 <div className='flex justify-center space-x-2 my-3 items-center'>
-                    {dotCount?.map((e, i) => <p className={`${count === i ? 'bg-blue-600 h-[12px] w-[12px] ' : 'bg-gray-300 h-[8px] w-[8px]'}  rounded-full`}></p>)}
+                    {dotCount?.map((e, i) => <p className={`${count === i ? 'bg-blue-600 h-[12px] w-[12px] ' : 'bg-gray-300 h-[8px] w-[8px]'}  rounded-full`} key={i}></p>)}
                 </div>
 
             </div>
