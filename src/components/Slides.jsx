@@ -25,7 +25,8 @@ const Slides = ({ slides, current }) => {
                     </div>
                 ))}
             </div>
-            {/* Add navigation buttons if needed */}
+            {/* Add navigation buttons*/}
+
         </div>
     )
 }
