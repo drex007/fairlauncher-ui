@@ -23,6 +23,9 @@ export default {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
+
+      '3xl': '1930px',
+      // => @media (min-width: 1536px) { ... }
     },
     extend: {
       backgroundImage: {
@@ -35,11 +38,12 @@ export default {
       colors: {
         "primary-yellow": '#E7FB05',
         "primary-teal": '#E9EBF8',
-        "button-blue": '#194FFF',
+        "button-blue": '#194FFF ',
         "primary-card": "#0E0949",
         "primary-bg-blend": '#BDDBFB',
         "primary-text-color": "#2E3449",
-        "primary-black-text": "#3D3D3D"
+        "primary-black-text": "#3D3D3D",
+        "modal-bg": "#11111190"
 
 
       },
