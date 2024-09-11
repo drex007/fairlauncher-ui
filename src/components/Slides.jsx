@@ -15,17 +15,18 @@ const Slides = ({ slides, current }) => {
                             <div className='bg-gray-300 flex-[0.5]  m-3 rounded-xl'>
                             </div>
                             <div className='flex-[0.5] my-3 mr-3 rounded-xl py-2'>
-                                <p className='font-poppins 2xl:text-[35px] lg:text-[15px] text-[11px] text-primary-yellow'>BigMusk Cats</p>
-                                <p className='font-poppins 2xl:text-[25px] lg:text-[11px] text-[8px] text-white tracking-wider md:mt-2 mt-1 2xl:w-4/5'>Network: ETH</p>
-                                <p className='font-poppins 2xl:text-[25px] lg:text-[11px] text-[8px] text-white tracking-wider md:mt-2 mt-1 2xl:w-4/5'>Listing Price: $0.1</p>
-                                <p className='font-poppins 2xl:text-[25px] lg:text-[11px] text-[8px] text-white tracking-wider md:mt-2 mt-1 2xl:w-4/5'>Listing Date: 2025-09-01</p>
+                                <p className='font-poppins 2xl:text-[30px] lg:text-[15px] text-[11px] text-primary-yellow'>BigMusk Cats</p>
+                                <p className='font-poppins 2xl:text-[20px] lg:text-[11px] text-[8px] text-white tracking-wider md:mt-2 mt-1 2xl:w-4/5'>Network: ETH</p>
+                                <p className='font-poppins 2xl:text-[20px] lg:text-[11px] text-[8px] text-white tracking-wider md:mt-2 mt-1 2xl:w-4/5'>Listing Price: $0.1</p>
+                                <p className='font-poppins 2xl:text-[20px] lg:text-[11px] text-[8px] text-white tracking-wider md:mt-2 mt-1 2xl:w-4/5'>Listing Date: 2025-09-01</p>
                                 <button className='2xl:px-16 2xl:py-4 2xl:my-8 2xl:rounded-full py-2 md:px-10 px-4 bg-primary-yellow text-blue-600 font-semibold rounded-3xl md:text-[10px] text-[8px] lg:my-3 my-2'>Buy Now</button>
                             </div>
                         </div>
                     </div>
                 ))}
             </div>
-            {/* Add navigation buttons if needed */}
+            {/* Add navigation buttons*/}
+
         </div>
     )
 }

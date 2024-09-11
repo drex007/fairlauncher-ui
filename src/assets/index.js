@@ -27,6 +27,13 @@ import polygon from './polygon.svg'
 import blast from './blast.svg'
 import fantom from './fantom.svg'
 import warning from './warning.svg'
+import human from './human.svg'
+import profile from './profile.svg'
+import copy from './copy.svg'
+import copyBlack from './copy-black.svg'
+import home2 from './home2.svg'
+import cloude1 from './cloud1.svg'
+import cloud2 from './cloud2.svg'
 
 
 
@@ -60,7 +67,14 @@ export {
     bgRocket,
     arrowRightSVg,
     arrowLeftSVg,
-    warning
+    warning,
+    human,
+    profile,
+    copy,
+    copyBlack,
+    home2,
+    cloude1,
+    cloud2
 }
 
 

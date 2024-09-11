@@ -9,11 +9,11 @@ const LaunchNow = () => {
                 <img src={pointer} alt="" className='2xl:my-10 md:ml-2 md:w-[40px] md:my-6 w-[20px] my-4 ' />
             </div>
             <div className='2xl:h-[600px] md:h-[500px] h-[550px] bg-gray-100 md:rounded-lg rounded-2xl w-full flex flex-1'>
-                <div className='hidden  2xl:h md:block 2xl:flex-[0.15] flex-[0.25] h-full 2xl:bg-contain bg-cover  rounded-md  bg-no-repeat w-full' style={{ backgroundImage: `url(${bgRocket})` }}>
-                    <img src={rocket} alt="" className='flex justify-start absolute 2xl:w-[650px] md:w-[550px] 2xl:mt-0 mt-8 -ml-24 rotate-8 z-10' />
+                <div className='hidden  2xl:h md:block 2xl:flex-[0.25] flex-[0.25] h-full 2xl:bg-contain bg-cover  rounded-md  bg-no-repeat w-full' style={{ backgroundImage: `url(${bgRocket})` }}>
+                    <img src={rocket} alt="" className='flex justify-start absolute 2xl:w-[700px] md:w-[600px] 2xl:mt-0 -ml-24 rotate-8 z-10' />
 
                 </div>
-                <div className='2xl:flex-[0.85] md:flex-[0.7] 2xl:mx-0 mx-auto flex flex-col  '>
+                <div className='2xl:flex-[0.75] md:flex-[0.7] 2xl:mx-0 mx-auto flex flex-col  '>
                     <div className='px-16 flex md:justify-between my-8 justify-center'>
                         <p className='hidden md:block font-poppins 2xl:text-[25px] 2xl:text-primary-black-text'></p>
                         <p className='bg-blue-700 rounded-full h-[30px] w-[30px] p-2 cursor-pointer'><img src={reload} alt="" /></p>
@@ -38,12 +38,12 @@ const LaunchNow = () => {
 
                         <button className='bg-primary-yellow py-4 2xl:px-16 2xl:py-6 px-8 rounded-full text-blue-700 md:text-[13px] text-[10px] font-poppins font-semibold mt-8'> Connect Wallet</button>
                     </div>
-                   
+
 
                 </div>
 
             </div>
-{/* 
+            {/* 
             <div className='w-full flex flex-col  items-center mt-32'>
                 <p className='flex justify-center font-poppins my-4 text-primary-black-text 2xl:text-[30px] 2xl:my-8 md:text-[20px] text-[15px]'>Partners  Projects </p>
                 <div className='grid grid-cols-4 lg:space-x-16 space-x-8 items-center 2xl:my-4'>
