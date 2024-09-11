@@ -18,10 +18,26 @@ import rocket from './rocket.png'
 import reload from './reload.png'
 import menu from './menu.png'
 import bgRocket from './bg-rocket.png'
+import arrowRightSVg from './arrow-right.svg'
+import arrowLeftSVg from './arrow-left.svg'
+import arbitrium from './arbitrium.svg'
+import base from './base.svg'
+import bnb from './bnb.svg'
+import polygon from './polygon.svg'
+import blast from './blast.svg'
+import fantom from './fantom.svg'
+import warning from './warning.svg'
+
 
 
 
 export {
+    fantom,
+    blast,
+    bnb,
+    polygon,
+    base,
+    arbitrium,
     logo,
     home,
     gear,
@@ -41,5 +57,14 @@ export {
     rocket,
     reload,
     menu,
-    bgRocket
+    bgRocket,
+    arrowRightSVg,
+    arrowLeftSVg,
+    warning
 }
+
+
+
+export const blockChains = [
+    {"chain": "BNB", "logo": "bnb.svg"}
+]
