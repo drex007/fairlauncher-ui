@@ -21,7 +21,7 @@ const ViewProjectsToBuy = () => {
         <ProjectLaunched />
         <div className='flex justify-start lg:space-x-5 lg:ml-[7%] my-5'>
           <div className='flex justify-between'>
-            <div className='flex space-x-2'>
+            <div className='flex space-x-2 lg:px-0 px-2'>
               <Link to="/">
                 <div className='w-[35px] h-[35px] rounded-full bg-gray-300 flex p-2 hover:bg-primary-bg-blend cursor-pointer'>
                   <img src={arrowLeftSVg} alt="" className='text-button-blue' />
@@ -52,7 +52,7 @@ const ViewProjectsToBuy = () => {
           </div>
 
         </div>
-        <div className='grid lg:grid-cols-3 grid-cols-2 gap-3 lg:px-24 my-6'>
+        <div className='grid lg:grid-cols-3 grid-cols-2 gap-3 lg:px-24 px-2 my-6'>
           {cardCount?.map((e, i) => <ProjectCard key={i} />)}
 
         </div>
