@@ -25,7 +25,7 @@ const Header = () => {
           <div className='z-50  absolute bg-white  w-3/4 rounded-2xl flex flex-col items-start -left-2  -top-4 pt-8 pb-4 px-4 transition ease-in-out delay-5000'>
             <img src={logo} alt="" width={120} className='cursor-pointer -mt-1 mb-8' onClick={() => toggleShowNav()} />
             <div className='flex flex-col  font-poppins '>
-              <a href="" className='my-2'>Buy</a>
+             <Link to="/buy"> <a href="" className='my-2'>Buy</a></Link>
               <Link to="/listing">
                 <a href="" className='my-2'>List</a>
               </Link>

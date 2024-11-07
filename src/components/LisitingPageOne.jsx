@@ -36,7 +36,7 @@ const LisitingPageOne = ({ showListingPageTwo, setshowListingPageTwo }) => {
             </div>
             {/* form */}
 
-            <div className='px-16'>
+            <div className='lg:px-16 px-2'>
                 <div className='mt-2'>
                     <input type="" className='w-full p-4 rounded-full border-none font-poppins lg:text-[14px] text-[10px] outline-none' placeholder='Enter token address' />
                 </div>

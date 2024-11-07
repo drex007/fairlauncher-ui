@@ -23,7 +23,7 @@ const LisitingPageTwo = ({ showListingPageTwo, setshowListingPageTwo }) => {
 
             {/* form */}
 
-            <div className='px-16'>
+            <div className='lg:px-16 px-2'>
 
                 <div className='mt-2 flex space-x-2'>
                     <input type="number" className='w-full p-4 rounded-full border-none font-poppins lg:text-[14px] text-[10px] outline-none' placeholder='Soft cap' />

@@ -3,7 +3,7 @@ import { bgRocket, gstring, ios, medium, nextdoor, parma, pointer, reload, rocke
 
 const LaunchNow = () => {
     return (
-        <div className='2xl:px-32 px-16 pb-3'>
+        <div className='2xl:px-32 lg:px-16 px-2 pb-3'>
             <div className='flex lg:justify-start justify-center'>
                 <p className='2xl:text-[60px] md:text-[35px]  text-[20px] font-semibold text-primary-black-text font-poppins md:ml-8 mb-4'>Launch <span className='text-blue-600'>Now</span> </p>
                 <img src={pointer} alt="" className='2xl:my-10 md:ml-2 md:w-[40px] md:my-6 w-[20px] my-4 ' />
