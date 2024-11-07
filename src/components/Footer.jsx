@@ -3,7 +3,7 @@ import { discord, logoGreen, telegram, x } from '../assets'
 
 const Footer = () => {
     return (
-        <div className='md:px-16 px-8 pb-16 sm:w-full'>
+        <div className='md:px-16 px-2 pb-16 sm:w-full'>
             <div className='bg-blue-700 rounded-3xl  lg:h-[300px] h-[200px] '>
                 <div className='flex justify-between py-10 lg:px-16 px-4 '>
                     <div className='font-poppins font-semibold'>
